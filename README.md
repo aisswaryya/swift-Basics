@@ -62,7 +62,7 @@ var defaultValue : Int = 7
 Print the value of value1 to the console. If it contains nil use assign defaultValue to it. 
 
 i) Write a simple if-else block to do so. 
-ii) Use the nil coalescing operatior. 
+ii) Use the nil coalescing operator.
 
 4-     If let name = txtname.text { 
 If let address = txtaddress.text { 
