@@ -1,5 +1,5 @@
 # swift-Basics
-Exercise: Swift Variables 
+Exercise 1: Swift Variables 
 
 1.	Declare 2 variables/constants with some random values and any name of your choice
 2.	Considering these 2 variables, one as a value of PI and other as a radius of circle, find the area of circle 
@@ -14,14 +14,14 @@ Exercise: Swift Variables
 11.	Declare another emoji variable with the value “iPhone\u{301}” 
 12.	Declare a variable that stores the value you get after applying the == operator on the emojis declared in 10) and 11).
  
-Exercise: Swift Arrays
+Exercise 2: Swift Arrays
 1.	Declare an empty Array of type String and initialize it with 3 values
 2.	Append the array with [“Boston” “New York”] to the array declared above
 3.	Insert the string “San Francisco” at the 3rd index without overwriting the already existing value (Rearrange the indices)
 4.	Use removeAt to remove any value from the array.
 5.	Print the final count of the array
 
-Exercise: Swift Loops
+Exercise 3: Swift Loops
 
 1-	Declare an empty Array of Integers. 
 2-	Initialize the array with even numbers between 1 and 100. 
@@ -29,7 +29,7 @@ Exercise: Swift Loops
 4-	Using a repeat while loop add 3 to each number. 
 5-	Declare a string and cast it to an Array of characters. Iterate over this array to print out the characters along with their indices. 
 
-Exercise: Swift Functions
+Exercise 4: Swift Functions
 
 1.	Create a function named “add” that takes two parameters of type double and returns the sum of the two numbers
 2.	Create a function named “subtract” that takes two parameters of type int and returns the difference of the two numbers
@@ -37,12 +37,12 @@ Exercise: Swift Functions
 4.	Make sure that the three functions created above work by testing them
 5.	Create a function named “test” that takes a parameter of type Int and returns sum, difference and multiplication of its digits(The function must return multiple parameters)
 
-Exercise: Conditions
+Exercise 5: Conditions
 
 1.	You are given a fridge that knows when your food is going bad. You know that milk spoils after 21 days and eggs after 10 days. Given milkAge and eggsAge, write a function to determine if you should throw the milk, the eggs or both away or not. If you can keep both, print “you can still use your milk and eggs”. If you should throw away the milk, print “you should throw away the milk”. Similarly for the eggs.
 2.	Write a function that takes in three variables “first, “second” and “third” that checks if at least two variables have the same value. If true, print “two values are at least identical” else print “the values are different”.
 
-Exercise: Swift Dictionary and Tuples
+Exercise 6: Swift Dictionary and Tuples
 
 1-	Create an array of dictionaries in which each dictionary in the array contains the keys “firstName” and “lastName”. Create an array with a name of your choosing that contains only the values for “firstName” in each dictionary.
 2-	Using the array of dictionaries created previously, this time create an array that contains the values for “firstName” and “lastName” in each dictionary separated by a delimiter of your choice.
@@ -50,7 +50,7 @@ Exercise: Swift Dictionary and Tuples
 4-	Declare and initialize a tuple with any values of your choice. 
 5-	Print both values of the tuple individually in the console. 
 
-Exercise: Swift Optionals
+Exercise 7: Swift Optionals
 
 1-	let optvar : Int = nil Correct the error in this line of code. 
 2-	let unwrapme : String? = nil 
